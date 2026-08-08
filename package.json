@@ -11,5 +11,9 @@
     "build": "npm run build -w @quote-builder/api && npm run build -w @quote-builder/web",
     "test": "npm run test -w @quote-builder/api",
     "test:e2e": "npm run test:e2e -w @quote-builder/api"
+  },
+  "allowScripts": {
+    "@nestjs/core@10.4.15": true,
+    "esbuild@0.21.5": true
   }
 }
